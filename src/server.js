@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // TODO: replace with your own MongoDB connection string
-mongoose.connect("mongodb+srv://ThaiBao:zTuOwdahSJXBEStq@cluster0.gzuc7rm.mongodb.net/?appName=Cluster0");
+mongoose.connect("mongodb+srv://ThaiBao:thailegiabao@cluster0.gzuc7rm.mongodb.net/?appName=Cluster0");
 //mongodb+srv://ThaiBao:<db_password>@cluster0.gzuc7rm.mongodb.net/?appName=Cluster0
 
 const urlSchema = new mongoose.Schema({
